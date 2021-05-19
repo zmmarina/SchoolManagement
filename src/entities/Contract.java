@@ -6,7 +6,6 @@ import java.util.List;
 
 public class Contract {
     private Date contractDate;
-    private Double contractValue;
 
     List<Fee> fees = new ArrayList<>();
 
@@ -14,9 +13,8 @@ public class Contract {
 
     }
 
-    public Contract(Date contractDate, Double contractValue) {
+    public Contract(Date contractDate) {
         this.contractDate = contractDate;
-        this.contractValue = contractValue;
     }
 
     public Date getContractDate() {
@@ -25,14 +23,6 @@ public class Contract {
 
     public void setContractDate(Date contractDate) {
         this.contractDate = contractDate;
-    }
-
-    public Double getContractValue() {
-        return contractValue;
-    }
-
-    public void setContractValue(Double contractValue) {
-        this.contractValue = contractValue;
     }
 
     public List<Fee> getFees() {
