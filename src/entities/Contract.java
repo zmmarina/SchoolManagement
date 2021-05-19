@@ -10,7 +10,6 @@ public class Contract {
     List<Fee> fees = new ArrayList<>();
 
     public Contract(){
-
     }
 
     public Contract(Date contractDate) {

@@ -5,8 +5,8 @@ import java.util.Date;
 public class Student {
     private String name;
     private Integer classroom;
-    private String address;
-    private Integer telephone;
+    private String email;
+    private long telephone;
     private Date birthdate;
 
     private Contract contract;
@@ -15,16 +15,10 @@ public class Student {
 
     }
 
-    public Student(
-            String name,
-            Integer classroom,
-            String address,
-            Integer telephone,
-            Date birthdate,
-            Contract contract) {
+    public Student(String name, Integer classroom, String email, long telephone, Date birthdate, Contract contract) {
         this.name = name;
         this.classroom = classroom;
-        this.address = address;
+        this.email = email;
         this.telephone = telephone;
         this.birthdate = birthdate;
         this.contract = contract;
@@ -46,19 +40,19 @@ public class Student {
         this.classroom = classroom;
     }
 
-    public String getAddress() {
-        return address;
+    public String getEmail() {
+        return email;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setEmail(String email) {
+        this.email = email;
     }
 
-    public Integer getTelephone() {
+    public long getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(Integer telephone) {
+    public void setTelephone(long telephone) {
         this.telephone = telephone;
     }
 
