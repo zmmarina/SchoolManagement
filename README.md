@@ -8,7 +8,7 @@
 <li>Java</li>
 </ul>
 
-<h3>:telescope:Future Features</h3>
+<h3>:telescope: Future Features</h3>
 <ul>
 <li>New rules, such as late payments</li>
 <li>Send memos to each student about the payment date</li>
